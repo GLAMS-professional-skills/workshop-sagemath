@@ -1,0 +1,13 @@
+{
+	"name": "SageMath dev",
+	"image": "docker.io/sagemath/sagemath:latest",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+			]
+		}
+	},
+	"containerEnv": {
+		"SHELL": "/bin/bash"
+	}
+}
