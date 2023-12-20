@@ -1,6 +1,7 @@
 {
 	"name": "SageMath dev",
-	"dockerFile": "Dockerfile",
+	// "dockerFile": "Dockerfile", // backup to build container more locally
+	"image": "ghcr.io/uoe-som-professional-skils/devcontainer-sagemath",
 	"customizations": {
 		"vscode": {
 			"extensions": [
